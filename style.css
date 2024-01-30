@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Home section Start */
+
+.home {
+    background-image: url(Media/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    overflow: auto;
+}
+
+nav{
+    margin-top: 24px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo {
+    width: 15%;
+    float: left;
+}
+
+.navLinks {
+    float: right;
+}
+
+.navLinks ul li {
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.home-content {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.home-content p {
+    font-size: 23px;
+}
+
+.home-content h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.home-content .btn {
+    margin: 25px 10px; 
+    font-size: 15px;
+    font-weight: bold;
+    padding: 17px;
+    color: white;
+    border-radius: 7px;
+}
+
+.home-content .btn1 {
+    background-color: #8e7754;
+    border-width: 0px;
+}
+
+.home-content .btn2 {
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.home-content button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Home section End */
+
+
+/* About section Start */
+
+.about {
+    margin-top: 60px;
+}
+
+.aboutImage {
+    width: 50%;
+    float: left;
+}
+
+.aboutImage img {
+    width: 100%;
+}
+
+.aboutContent {
+    width: 40%;
+    float: right;
+    margin-right: 20px;
+}
+
+.aboutContent h2 {
+    font-size: 32px;
+    color: #303030;
+    margin-top: 45px;
+}
+
+.aboutContent p {
+    color: #686868;
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+.aboutContent ul li {
+    padding: 15px;
+}
+
+/* About section end */
+
+/* Location section start */
+
+.location {
+    margin-top: 60px;
+    background-color: #f8f8f8;
+}
+
+.locationContent {
+    width: 38%;
+    float: left;
+    margin-top: 60px;
+}
+
+.locationContent p {
+    color: #686868;
+    margin: 30px 0px;
+}
+
+.locationImage {
+    width: 50%;
+    float: right;
+    margin: 50px 0px;
+}
+
+.locationImage img {
+    width: 100%;
+}
+
+/* Location section ends */
+
+/* Bakings section start */
+
+.baking {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.bakingContainer {
+    margin-top: 30px;
+}
+
+.bakingItem{
+    float: left;
+    width: 32%;
+    padding: 15px;
+}
+
+.bakingItem img {
+    width: 100%;
+}
+
+.bakingItem h3, p {
+    padding: 9px;
+}
+
+.bakingItem p {
+    color: #303030;
+}
+
+/* Bakings section end */
+
+/* Contact section start */
+
+.contact {
+    background-color: #f8f8f8;
+    padding: 60px 0px;
+}
+
+.contactDetails{
+    width: 40%;
+    float: left;
+    margin: 30px 0px;    
+}
+
+.contactDetails p{
+    color: #686868;
+}
+
+.contactDetails ul li {
+    padding: 10px;
+}
+
+.contactMap {
+    width: 50%;
+    float: right;
+}
+
+/* Contact section end */
+
+/* FAQ section start */
+
+.faq {
+    background-color: #403d38;
+    padding: 60px 0px;
+}
+
+.faq h3 {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.faq p {
+    color: #969696;
+}
+
+.faq li {
+    color: #969696;
+    list-style: circle;
+    padding-bottom: 20px;
+}
+
+.faqList li::before{
+    width: 10px;
+    height: 2px;
+    background-color: #969696;
+    position: absolute;
+    top: 12px;
+}
+
+.faqList {
+    width: 23%;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+.faqList a {
+    color: #969696;
+    text-decoration: none;
+}
+
+/* FAQ section end */
+
+/* Footer section start */
+
+.footer {
+    background-color: #353330;
+    margin: auto;
+    text-align: center;
+    color: #777;
+    padding: 50px 0px;
+}
+
+.footer img {
+    width: 25%;
+}
+
+/* Footer section end */
+
